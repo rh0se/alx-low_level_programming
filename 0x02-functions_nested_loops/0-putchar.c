@@ -10,8 +10,8 @@ int main(void)
 
 	for (num = 0; num < 8; num++)
 	{
-		_putchar(c[num]);
+		_putchar(c[nuiim]);
 	}
-	_putchar("\n");
+	_putchar(10);
 	return (0);
 }
