@@ -10,7 +10,7 @@ int main(void)
 
 	for (num = 0; num < 8; num++)
 	{
-		_putchar(c[i]);
+		_putchar(c[num]);
 	}
 	_putchar("\n");
 	return (0);
