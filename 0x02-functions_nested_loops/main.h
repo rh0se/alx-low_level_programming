@@ -1,1 +1,1 @@
-#include _putchar(int c);
+#include _putchar(char c);
