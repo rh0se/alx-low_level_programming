@@ -23,11 +23,14 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
-			_putchar(times + '0');
 			if (times > 9)
 			{
 				_putchar(times /10 + '0');
 				_putchar(times % 10 + '0');
+			}
+			else 
+			{
+				_putchar(times + '0')
 			}
 			_putchar(',');
 			t++;
