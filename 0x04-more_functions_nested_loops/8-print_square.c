@@ -2,6 +2,7 @@
 /**
  * print_square - draws a square using multiple terminal lines and #'s.
  * @n: the number of # to print in each line.
+ * Return : Nothing
  */
  void print_square(int n)
 {
