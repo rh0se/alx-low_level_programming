@@ -30,7 +30,7 @@ void times_table(void)
 			}
 			else 
 			{
-				_putchar(times + '0')
+				_putchar(times + '0');
 			}
 			_putchar(',');
 			t++;
