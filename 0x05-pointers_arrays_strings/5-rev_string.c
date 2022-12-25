@@ -8,13 +8,15 @@
 
 void rev_string(char *s)
 {
-	int i = 0, length;
+	int i, k, count = 0;
+	char arr[500];
 
-	length = _strlen(s) - 1;
-	while (length > i)
+	for (i = 0; s[i] != '\0'; i++)
+		arr[i] = s[i];
+
+	for (k = i - 1; k >= 0; k--)
 	{
-		swap_char(s + length, s + i);
-		i++;
-		length--;
+		s[k] = arr[count];
+		count++;
 	}
 }
