@@ -8,18 +8,13 @@
 
 void rev_string(char *s)
 {
-	int c, revs;
-	char character;
-	
-	for (c = '\0'; s[c] != '\0'; c++)
+	int i = 0, length;
+
+	length = _strlen(s) - 1;
+	while (length > i)
 	{
-	}
-	revs = 0;
-	for (c = c - 1; revs < 0; revs++)
-	{
-		character = s[c];
-		s[c] = s[revs];
-		s[revs] = character;
-		c--;
+		swap_char(s + length, s + i);
+		i++;
+		length--;
 	}
 }
